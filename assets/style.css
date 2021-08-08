@@ -1,0 +1,62 @@
+:root{
+    --first-color: #4f5d75;
+    --second-color: #b88E8D;
+    --third-color: #a8c7bb;
+    --fourth-color: #1d1a05;
+    --fifth-color: #ffbd00;
+}
+
+html{
+    background-color: var(--second-color);
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.columns{
+    margin: 30px;
+}
+
+.title{
+    font-size: 75px;
+    color: var(--fourth-color);
+    padding: 50px;
+    border: solid 2px;
+    background-color: var(--third-color);
+}
+
+.search-func{
+    color: var(--fourth-color);
+    padding-bottom: 30px;
+    border: solid 2px;
+    background-color: var(--third-color);
+}
+
+.button{
+    background-color: var(--fifth-color);
+}
+
+.location{
+    color: var(--fourth-color);
+    padding: 25px;
+    border: solid 2px;
+    background-color: var(--third-color);
+}
+
+.park-result{
+    color: var(--fourth-color);
+    border: solid 2px;
+    margin: 10px;
+    background-color: var(--third-color);
+}
+
+.weather-result{
+    color: var(--fourth-color);
+    border: solid 2px;
+    margin: 10px;
+    background-color: var(--third-color);
+}
+.hide {
+    display: none;
+}
