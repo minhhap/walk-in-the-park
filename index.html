@@ -5,59 +5,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group-Project</title>
+    <title>Walk in the Park</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 
 <body>
     <!--TITLE-->
-    <div class="title columns is-centered">
-        <header>Weather Meetup</header>
+    <div class="title columns is-centered is-mobile">
+        <header>Walk in the Park</header>
     </div>
 
     <!--Search DIV-->
-    <div class="search-func columns is-centered" id="search">
+    <div class="search-func columns is-centered is-mobile" id="search">
         <div class="column">
             <div class="columns is-centered">
-                <h2>Search Meetup Date & Location</h2>
+                <h2>Search Location</h2>
             </div>
 
             <!--enter location-->
-            <div class="columns is-centered" id="enter-location">
+            <div class="columns is-centered is-mobile" id="enter-location">
                 <form action="location">
                     <label for="location">Enter "City, State Code"</label>
                     <input type="text" id="searchTerm" />
                 </form>
             </div>
             <!-- submit button -->
-            <div class="columns is-centered">
+            <div class="columns is-centered is-mobile">
                 <button class="button" type="submit" id="btn" onclick="myFunction()" >Search</button>
             </div>
         </div>
     </div>
 
     <!-- location text -->
-    <div class="location columns is-full" id="results">
+    <div class="example-text is-mobile" id="results">
         <!--Location result-->
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo id soluta repellat minus dolores accusamus
-        nam iure dolorum temporibus, recusandae maxime voluptas fuga, nihil culpa! Adipisci esse tempore magni fugiat?
+        <p>Enter with format exactly as shown: San Francisco, CA</p>
     </div>
 
     <!--Results-->
-    <div class="columns is-full">
+ 
 
         <!-- weather results -->
-        <div class="weather-result column" id="weather-display">
-            <!-- Weather results will be dynamically added here -->
+        <div class="weather-col columns is-mobile">
+            <div class="column">
+                <div class="weather-result columns is-1" id="weather-display">
+                    <!-- Weather results will be dynamically added here -->
+                </div>
+            </div>
         </div>
 
         <!-- meetup results -->
-        <div class="park-result column" id="meet-display">
-            <!-- Park elements will be dynamically added here -->
+        <div class="park-col is-mobile">
+                <div class="park-result " id="meet-display">
+                    <!-- Park elements will be dynamically added here -->
+                </div>
         </div>
 
-    </div>
     <!-- Add jQuery CDN for JavaScript functionalities -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
