@@ -9,9 +9,14 @@ When a user enters a city name in the search box
 Finding the right API that gives us the data we need while being free, and quick to get license. 
 The National Park API shows all parks in the state while only results within a certain distance from the city are needed. Resolved by adding filters and conditions to the responses.
 
+## Screenshots
+<div>
+    <img src="./assets/images/walk-park.png"></img>
+    <img src="./assets/images/park.png"></img>
+</div>
 
 ## Deployed URL
-
+https://minhhap.github.io/walk-in-the-park/
 
 ## Contributors 
 Haniel Chang, Kyle Kilmartin, MinhHa Pham, Daniel Snowden
